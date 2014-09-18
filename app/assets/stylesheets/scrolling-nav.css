@@ -56,7 +56,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 225px;
     text-align: left;
     color:#000;
-    background: #6C7A89;
+    background: #7f8c8d;
     /*background: url('Body.jpg') no-repeat center center; */
     background-size: cover;
     width: 100%;
@@ -68,13 +68,13 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-        background-image: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #65D681),
-        color-stop(1, #26687A),
-        color-stop(1, #B1C24E)
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #65D681),
+    color-stop(1, #26687A),
+    color-stop(1, #B1C24E)
     );
     background-image: -o-linear-gradient(bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);
     background-image: -moz-linear-gradient(bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);

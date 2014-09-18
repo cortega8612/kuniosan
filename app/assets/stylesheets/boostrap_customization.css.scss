@@ -53,13 +53,34 @@ body {
   height: 300px;
 }
 
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid #6C7A89;
-    margin: 1em 0; padding: 0; }
 
-.hr1 { display: block; height: 1px;
-    border: 0; border-top: 1px solid #FFF;
-    margin: 1em 0; padding: 0; }
+hr {
+  font-family: 'Poiret'; /* choose the font you like */
+  text-align: center; /* horizontal centering */
+  line-height: 1px; /* vertical centering */
+  height: 1px; /* gap between the lines */
+  font-size: 1em; /* choose font size you like */
+  border-width: 1px 0; /* top and bottom borders */
+  border-style: solid;
+  border-color: #D91E18;
+  margin: 20px 10px; /* 20px space above/below, 10px left/right */
+
+  /* ensure 1px gap between borders */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+hr:after {
+  content: "K"; /* section sign */
+  color: #FFF;
+  display: inline; /* for vertical centering and background knockout */
+  background-color: #D91E18; /* same as background color */
+  padding: 0 0.7em; /* size of background color knockout */
+}
+
 
 .textcenter {
 	text-align: center;
