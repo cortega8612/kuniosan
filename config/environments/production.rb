@@ -77,7 +77,7 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  # Do not dump schema after migrations.
+ # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
   #Note to set this to your actual host
@@ -93,8 +93,5 @@ Rails.application.configure do
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
-
-  
-}
 
 end
