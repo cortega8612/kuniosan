@@ -42,7 +42,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 300px;
     padding-bottom: 250px;
     color: #000;
-    font-family:'Poiret One';
+    font-family:'Raleway';
     text-align: right;
     background: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/roll3.jpg") no-repeat center center;
     background-size: cover;
@@ -88,8 +88,6 @@ of those sections to manage the look and feel of the site. */
 
  .galeria-section {
     height: 850px;
-    padding-top: 170px;
-    padding-bottom: 150px;
     text-align: center;
     color:#FFF;
     background-image: -webkit-gradient(
