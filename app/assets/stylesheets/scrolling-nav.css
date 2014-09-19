@@ -44,7 +44,7 @@ of those sections to manage the look and feel of the site. */
     color: #000;
     font-family:'Poiret One';
     text-align: right;
-    background: url(https://s3-us-west-2.amazonaws.com/kunio-mx-assets/roll3.jpg) no-repeat center center;
+    background: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/roll3.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
 }
@@ -53,7 +53,8 @@ of those sections to manage the look and feel of the site. */
 
  .about-section {
     height: 100%;
-    padding-top: 75px;
+    padding-top: 135px;
+    padding-bottom: 55px;
     text-align: left;
     color:#000;
     background-image: -webkit-gradient(
@@ -72,6 +73,17 @@ of those sections to manage the look and feel of the site. */
         /*background: url('Body.jpg') no-repeat center center; */
         background-size: cover;
         width: 100%;
+ }
+
+  .menu-section {
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 55px;
+    text-align: left;
+    color:#FFF;
+    background: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/sushi3.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
  }
 
  .galeria-section {
@@ -98,28 +110,7 @@ of those sections to manage the look and feel of the site. */
     width: 100%;
  }
 
- .menu-section {
-    height: 850px;
-    padding-top: 250px;
-    padding-bottom: 150px;
-    text-align: center;
-    color:#FFF;
-        background-image: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #222F81),
-        color-stop(1, #26B0BF),
-        color-stop(1, #3E4C9B)
-    );
-    background-image: -o-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
-    background-image: -moz-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
-    background-image: -webkit-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
-    background-image: -ms-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
-    background-image: linear-gradient(to bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
-    background-size: cover;
-    width: 100%;
- }
+
 
  .contacto-section {
     height: 850px;

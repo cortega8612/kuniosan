@@ -128,6 +128,19 @@ border-radius: 3px; /* future proofing */
     box-shadow: inset 1px 8px 20px -5px rgba(0,0,0,0.81);
 }
 
+.block-text-black { 
+   color: #000;  
+   background: rgba(255, 255, 255, 0.8);
+   margin-right: 11px;
+   margin-left: 11px;
+   padding: 18px;
+   margin-bottom: 50px;
+   -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+
+}
 
 #logo img { 
   position: absolute;
@@ -135,12 +148,14 @@ border-radius: 3px; /* future proofing */
   // Use your own values for anything below this line.
   left: 30px;
   top: -50px;
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   -webkit-box-shadow: 1px 8px 20px -5px rgba(0,0,0,0.81);
 -moz-box-shadow: 1px 8px 20px -5px rgba(0,0,0,0.81);
 box-shadow: 1px 8px 20px -5px rgba(0,0,0,0.81);
 }
 
-
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #ECF0F1;
+}
 
