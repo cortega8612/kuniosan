@@ -44,7 +44,7 @@ of those sections to manage the look and feel of the site. */
     color: #000;
     font-family:'Poiret One';
     text-align: right;
-    background: url('https://s3-us-west-2.amazonaws.com/kunio-mx-assets/roll3.jpg') no-repeat center center;
+    background: url(https://s3-us-west-2.amazonaws.com/kunio-mx-assets/roll3.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
@@ -52,8 +52,8 @@ of those sections to manage the look and feel of the site. */
 
 
  .about-section {
-    height: 850px;
-    padding-top: 135px;
+    height: 100%;
+    padding-top: 75px;
     text-align: left;
     color:#000;
     background-image: -webkit-gradient(
