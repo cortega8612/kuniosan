@@ -80,6 +80,11 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+
+  config.action_controller.asset_host = "http://kunio-mx.s3.amazonaws.com"
+
+
+
     #Note to set this to your actual host
     #Required for Heroku
     config.action_mailer.default_url_options = { :host => 'http://kunio-mx.herokuapp.com' }
