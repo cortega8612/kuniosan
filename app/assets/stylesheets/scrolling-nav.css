@@ -97,12 +97,24 @@ of those sections to manage the look and feel of the site. */
 
 
  .contacto-section {
-    height: 900px;
-    padding-top: 150px;
+    height: 100%;
+    padding-top: 125px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-    background-color: #6C7A89; 
+     background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #969496),
+    color-stop(0.7, #CCCCCC),
+    color-stop(1, #EDEDED)
+    );
+    background-image: -o-linear-gradient(bottom, #969496 0%, #CCCCCC 70%, #EDEDED 100%);
+    background-image: -moz-linear-gradient(bottom, #969496 0%, #CCCCCC 70%, #EDEDED 100%);
+    background-image: -webkit-linear-gradient(bottom, #969496 0%, #CCCCCC 70%, #EDEDED 100%);
+    background-image: -ms-linear-gradient(bottom, #969496 0%, #CCCCCC 70%, #EDEDED 100%);
+    background-image: linear-gradient(to bottom, #969496 0%, #CCCCCC 70%, #EDEDED 100%);    
     background-size: cover;
     width: 100%;
  }
