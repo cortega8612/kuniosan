@@ -100,8 +100,9 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 145px;
     padding-bottom: 120px;
+    font-family:'Lato';
     text-align: left;
-    color:#000;
+    color:#FFF;
      background-image: -webkit-gradient(
     linear,
     left top,
