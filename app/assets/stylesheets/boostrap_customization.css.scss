@@ -109,29 +109,16 @@ hr:after {
   font-size: 15px;
 }
 
-.text-shadow {
-  color: #fff;
-  width: 24em; 
-  position: absolute; 
-  top: 20%; 
-  left: 50%; 
-  border: .5em solid #fff; 
-  margin-left: -12em; 
-  padding: 2em 0; 
 
-  background-color: rgba(0,0,0,0.6);
-  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-
-}
 
 .block-text { 
    color: white;  
-   background: rgba(0, 0, 0, 0.6);
+   background: rgba(0, 0, 0, 0.7);
    margin-right: 11px;
    margin-left: 11px;
    padding: 18px;
+   border: .5em solid #ecf0f1;
+   margin-top: 100px; 
    margin-bottom: 80px;
    -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
