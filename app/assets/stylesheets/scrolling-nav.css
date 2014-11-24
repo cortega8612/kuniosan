@@ -70,6 +70,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 130px;
     padding-bottom: 55px;
+    font-size: 12px;
     text-align: left;
     color:#FFF;
     background: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/kunio-DSC07380.jpg") no-repeat center center;
