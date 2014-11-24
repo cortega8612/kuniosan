@@ -55,12 +55,16 @@ body {
 hr {
   text-align: center; /* horizontal centering */
   background: #D91E18;
-  margin: 30px 0; /* 20px space above/below, 10px left/right */ 
+  margin: 20px 0; /* 20px space above/below, 10px left/right */ 
   border:none;
+  padding-bottom:45px;
 }
 
 hr:after {
-  content: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/Kunio-hr.png") inside; /* section sign */
+  display: inline-block;
+    vertical-align: top;
+
+  content: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/Kunio-hr.png"); /* section sign */
 }
 
 
