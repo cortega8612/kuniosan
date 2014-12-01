@@ -1,6 +1,7 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
 
 $body-bg: #D91E18;
@@ -51,8 +52,25 @@ body {
   height: 300px;
 }
 
+a:link {
+    color: #282828;
+}
+
+a:hover {
+    color: #D91E18;
+}
+
+.h3{
+  text-decoration: underline;
+  font-family: Great Vibes;
+  font-size: 35px;
+  color: #2980b9;
+}
+
 h4 {
   font-family: Great Vibes;
+  font-size: 25px;
+  color: #D91E18;
 }
 
 hr {
@@ -77,8 +95,8 @@ hr:after {
 
 
 .em2{
-  text-align: right;
   font-size: 12px;
+  font-family: Raleway;
 }
 
 .vcenter {
