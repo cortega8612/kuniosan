@@ -65,6 +65,7 @@ a:hover {
   font-family: Great Vibes;
   font-size: 35px;
   color: #2980b9;
+  text-align: center;
 }
 
 h4 {
@@ -213,5 +214,10 @@ box-shadow: 1px 8px 20px -5px rgba(0,0,0,0.81);
         color: #D91E18;
       }
 
+.carousel-caption{
+   color: #FFF;  
+   background-color: rgba(0, 0, 0, 0.7);
+   font-family: Great Vibes;
 
+}
 
