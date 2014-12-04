@@ -1,8 +1,7 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
-@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
-
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 $body-bg: #D91E18;
 $font-family-sans-serif: 'Lato';
@@ -53,24 +52,24 @@ body {
 }
 
 a:link {
-    color: #282828;
+    color: #1E8BC3;
 }
 
 a:hover {
-    color: #D91E18;
+    color: #2C3E50;
 }
 
 .h3{
   text-decoration: underline;
-  font-family: Great Vibes;
-  font-size: 35px;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
   color: #2980b9;
   text-align: center;
 }
 
 h4 {
-  font-family: Great Vibes;
-  font-size: 25px;
+  font-family: Raleway;
+  font-size: 20px;
   color: #D91E18;
 }
 
