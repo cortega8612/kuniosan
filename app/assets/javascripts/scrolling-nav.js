@@ -7,6 +7,13 @@ $(window).scroll(function() {
     }
 });
 
+//jQuery to collapse the navbar on click
+$(document).ready(function () {
+$(".navbar-nav li a").click(function(event) {
+$(".navbar-collapse").collapse('hide');
+});
+});
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
