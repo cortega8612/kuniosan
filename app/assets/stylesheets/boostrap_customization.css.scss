@@ -35,7 +35,6 @@ $navbar-inverse-link-hover-color: #D91E18;
   float: none;
   vertical-align: top;
   text-align: center;
-
 }
 
 .navbar .navbar-collapse {
@@ -83,8 +82,7 @@ hr {
 
 hr:after {
   display: inline-block;
-    vertical-align: top;
-
+  vertical-align: top;
   content: url("https://s3-us-west-2.amazonaws.com/kunio-mx-assets/Kunio-hr50.png"); /* section sign */
 }
 
@@ -122,8 +120,6 @@ hr:after {
   vertical-align: middle;
   font-size: 15px;
 }
-
-
 
 .block-text { 
    color: white;  

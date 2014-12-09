@@ -17,9 +17,7 @@ html {
     height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility;
-
-    
+  text-rendering: optimizelegibility;    
 }
 
 @media(min-width:767px) {
